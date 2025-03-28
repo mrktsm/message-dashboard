@@ -1,10 +1,28 @@
-ASSINGMENT 6:
-    All functionality works as expected,
-    with proper message toggling in the inbox and
-    a scrollable message history.
+# CS360 Message Dashboard
 
-    I also found this tutorial for creating a nice looking message bubble and slightly tweaked the settings around:
-    https://stackoverflow.com/questions/66396159/message-pip-tail-on-div-in-css
+This is a simple message dashboard project created for the CS360: Principles of Databases course at Gettysburg College.
+![image](https://github.com/user-attachments/assets/f94c64d5-8989-48e2-a491-86ebfdcd320e)
 
-    link to dashboard:
-    http://cs.gettysburg.edu/~tsymma01/cs360/php/dashboard.php
+## Technologies Used
+
+* **Frontend**: Bootstrap, HTML/CSS, JavaScript
+* **Backend**: PHP
+* **Database**: MySQL
+
+## Features
+
+* User login/logout functionality
+* Inbox to view received messages
+* Compose messages and send to other users
+* View message history between users
+
+## Setup
+
+1. Ensure you have PHP and MySQL set up on your server.
+2. Create a MySQL database and use the provided `s25_tsymma01` schema.
+3. Include the database connection (`db_connect.php`) in your project.
+4. Customize as necessary to fit your needs.
+
+## License
+
+This project is for educational purposes and part of an assignment for CS360 at Gettysburg College.
