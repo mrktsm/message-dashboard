@@ -27,7 +27,7 @@ if (isset($_GET['menu'])) {
 <TITLE> Message Dashboard </TITLE>
 
 <?php include("bootstrap.php"); ?>
-
+<script src='myScript.js'> </script>
 </HEAD>
 
 <BODY>
@@ -57,7 +57,7 @@ else {
 <!-- href="?menu=inbox" access current html/php file -->
 <DIV class="col-4 menuItem"><A href="dashboard.php?menu=inbox">Inbox</A></DIV>
 <DIV class="col-4 menuItem"><A href="?menu=compose">Compose</A></DIV>
-<DIV class="col-4 menuItem"><A href="?menu=something">Something</A></DIV>
+<DIV class="col-4 menuItem"><A href="?menu=history">Message History</A></DIV>
 
 </DIV>
 
@@ -86,6 +86,8 @@ case 'login':
 case 'logout':
     processLogout();
     break;
+case 'history':
+    genHistoryForm($db, $_SESSION['uid']);
 }
 
 ?>
