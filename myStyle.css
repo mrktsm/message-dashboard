@@ -1,0 +1,29 @@
+
+
+
+.main {
+    margin-top:       20px;
+    padding:          10px;
+    border:           dotted 2px blue;
+}
+
+.menuItem {
+    border:           solid 2px green; 
+    border-radius:    5px;
+    text-align:       center; 
+    font-size:        20px; 
+    background-color: orange; 
+    color:            blue;
+}
+
+.menuItem:hover {
+    background-color: blue; 
+    color:            orange;
+}
+
+.debug {
+	border:			  dashed 1px gray;
+	border-radius:    10% 30% 50% 70%;
+	border-width:     2px 4px;
+	background-color: #dedede;
+}
